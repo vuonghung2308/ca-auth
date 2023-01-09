@@ -1,0 +1,93 @@
+[
+    {
+        "errorCode": "WRONG_EMAIL_OR_PASSWORD",
+        "description": {
+            "en": "Your email or password is not correct",
+            "vi": "Tên tài khoản hoặc mật khẩu không chính xác"
+        }
+    },
+    {
+        "errorCode": "INTERNAL_SERVER_ERROR",
+        "description": {
+            "en": "An error has occurred in the internal server",
+            "vi": "Có lỗi xẩy ra trong máy chủ nội bộ"
+        }
+    },
+    {
+        "errorCode": "NOT_ALLOWED",
+        "description": {
+            "en": "You are not allowed to do this",
+            "vi": "Bạn không được cho phép làm điều này"
+        }
+    },
+    {
+        "errorCode": "REGISTERED_EMAIL",
+        "description": {
+            "en": "The email is used for registration",
+            "vi": "Email đã được sử dụng"
+        }
+    },
+    {
+        "errorCode": "INVALID_TOKEN",
+        "description": {
+            "en": "Your token is not valid",
+            "vi": "Token của bạn không hợp lệ"
+        }
+    },
+    {
+        "errorCode": "NO_TOKEN",
+        "description": {
+            "en": "Missing token in headers",
+            "vi": "Thiếu token trong headers"
+        }
+    },
+    {
+        "errorCode": "TOKEN_EXPIRED",
+        "description": {
+            "en": "Your token expired",
+            "vi": "Token của bạn đã hết hạn"
+        }
+    },
+    {
+        "errorCode": "UNKNOWN_ERROR",
+        "description": {
+            "en": "An unknown error has occurred",
+            "vi": "Có lỗi đã xảy ra"
+        }
+    },
+    {
+        "errorCode": "INVALID_DATA",
+        "description": {
+            "en": "Data input is not valid",
+            "vi": "Dữ liệu đầu vào không hợp lệ"
+        }
+    },
+    {
+        "errorCode": "URL_NOT_FOUND",
+        "description": {
+            "en": "The requested URL was not found on this server",
+            "vi": "Không tìm thấy đường dẫn được yêu cầu"
+        }
+    },
+    {
+        "errorCode": "NOT_FOUND",
+        "description": {
+            "en": "The requested resource was not found on this server",
+            "vi": "Không tìm thấy tài nguyên được yêu cầu"
+        }
+    },
+    {
+        "errorCode": "METHOD_NOT_ALLOWED",
+        "description": {
+            "en": "The method is not allowed for requested URL",
+            "vi": "Phương thức này không được cho phép với đường dẫn được yêu cầu"
+        }
+    },
+    {
+        "errorCode": "DATABASE_SERVER_ERROR",
+        "description": {
+            "en": "An error has occurred in the database server",
+            "vi": "Có lỗi xẩy ra trong máy chủ cơ sở dữ liệu"
+        }
+    }
+]

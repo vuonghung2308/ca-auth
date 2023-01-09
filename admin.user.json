@@ -1,0 +1,27 @@
+{
+    "id" : "ec4ebe70-664a-11ed-9bde-ad5f76e718be",
+    "fullname" : "Vương Mạnh Hùng",
+    "email" : "hungvm24@fpt.com.vn",
+    "password" : "$2b$10$5NPC8YsmPELbndVGNqW9Wu9LH63T2Rm1R4syPQi2ornWAxMsxd02e",
+    "is_active" : true,
+    "role" : [
+        "SA"
+    ],
+    "create_time" : ISODate("2022-11-17T07:39:09.761+0000"),
+    "phone" : "0857865006",
+    "tenant" : null,
+    "permissions" : {
+        "scope" : [
+            {
+                "nameScope" : "All",
+                "scopeDetail" : [
+                    "All"
+                ],
+                "_id" : ObjectId("6375e51dce44fe77c34364b9")
+            }
+        ],
+        "roleView" : [
+            "ViewAll"
+        ]
+    }
+}
