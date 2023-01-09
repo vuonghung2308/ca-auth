@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs:16-ubi8 AS builder
+FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs:16-alpine AS builder
 
 RUN addgroup app && adduser -S -G app app
 
