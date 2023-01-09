@@ -5,6 +5,7 @@
   "main": "CA_AUTH.js",
   "type": "module",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
