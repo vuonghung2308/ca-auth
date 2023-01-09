@@ -6,5 +6,6 @@ COPY . .
 RUN chown -R 0:0 ./
 USER 0
 RUN npm install
+USER 0
 
 CMD ["node", "CA_AUTH.js"]
