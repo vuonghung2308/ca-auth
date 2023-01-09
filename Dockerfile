@@ -7,4 +7,5 @@ RUN chown -R 1001:1001 .
 USER 1001
 RUN npm install
 
-CMD ["node", "CA_AUTH.js"]
+RUN node CA_AUTH.js
+#CMD ["node", "CA_AUTH.js"]
