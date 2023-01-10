@@ -1,13 +1,9 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs:16-ubi8 AS builder
+FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs:16-minimal
   
 WORKDIR /app
-USER 0
+
 COPY . .
-RUN chown -R 1001:0 .
-#RUN chown -R $(whoami) ~/.npm
-USER 1001
+
 RUN npm install
-RUN chown -R 1001370000 /app/logs/
-#USER 0
-#RUN node CA_AUTH.js
+
 CMD ["node", "CA_AUTH.js"]
