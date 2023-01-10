@@ -4,6 +4,7 @@ WORKDIR /app
 #USER 0
 COPY . .
 #RUN chown -R 0:0 .
+RUN chown -R $(whoami) ~/.npm
 #USER 0
 RUN npm install --unsafe-perm=true --allow-root
 #USER 0
