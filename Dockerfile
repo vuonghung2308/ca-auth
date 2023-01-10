@@ -6,8 +6,8 @@ COPY . .
 RUN chown -R 1001:0 .
 #RUN chown -R $(whoami) ~/.npm
 USER 1001
-RUN npm install --unsafe-perm=true --allow-root
-RUN chown -R $(whoami) /app/logs/
+RUN npm install
+RUN chown -R 1001370000 /app/logs/
 #USER 0
 #RUN node CA_AUTH.js
 CMD ["node", "CA_AUTH.js"]
