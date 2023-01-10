@@ -5,7 +5,7 @@ USER 0
 COPY . .
 RUN chown -R 1001:1001 .
 USER 1001
-RUN npm install
+RUN npm install --unsafe-perm=true --allow-root
 
-RUN node CA_AUTH.js
-#CMD ["node", "CA_AUTH.js"]
+#RUN node CA_AUTH.js
+CMD ["node", "CA_AUTH.js"]
