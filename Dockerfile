@@ -1,13 +1,8 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs:16-ubi8
-  
+FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs:16-ubi8 AS builder
+
 WORKDIR /app
-
-COPY . .
-
+COPY ./package.json .
 RUN npm install
-
-RUN pwd
-
-RUN whoami
+COPY . .
 
 CMD ["node", "CA_AUTH.js"]
