@@ -6,4 +6,8 @@ COPY . .
 
 RUN npm install
 
+RUN pwd
+
+RUN whoami
+
 CMD ["node", "CA_AUTH.js"]
