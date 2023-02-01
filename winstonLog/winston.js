@@ -31,11 +31,11 @@ const myLogger = new winston.createLogger({
     ),
     transports: [
         //new winston.transports.File(options.file),
-        new winston.transports.DailyRotateFile({
-            name: 'file',
+        //new winston.transports.DailyRotateFile({
+        //    name: 'file',
             //datePattern: '.yyyy-MM-dd',
-            filename: `${appRoot}/logs/app.log`// path.join(__dirname, 'logs', 'log_file.log')
-        }),
+        //    filename: `${appRoot}/logs/app.log`// path.join(__dirname, 'logs', 'log_file.log')
+        //}),
         new winston.transports.Console(options.console)
     ],
     exitOnError: false, // do not exit on handled exceptions
